@@ -14,4 +14,5 @@ OUTPUT_PATH="data/coco_precomp_small"  # Path to save subsampled dataset
 NUM_SAMPLES=1000  # Number of samples to take from each dataset (e.g., train, dev, test)
 
 # Run the downsampling script
+cd /users/beyza.urhan/ConVSE-base
 python3 subsample_data.py --input_dir "$DATA_PATH" --output_dir "$OUTPUT_PATH" --num_samples "$NUM_SAMPLES"
