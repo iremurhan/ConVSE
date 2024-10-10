@@ -11,7 +11,7 @@ Download the [dataset files](https://www.kaggle.com/datasets/kuanghueilee/scan-f
 # Train new models
 Run `train.py`:
 ```
-python train.py --data_path "$DATA_PATH" --data_name "$DATA_NAME" --vocab_paath "$VOCAB_PATH" --model_name "runs/convse/model/" --use_contrastive
+python3 train.py --data_path "$DATA_PATH" --data_name "$DATA_NAME" --vocab_path "$VOCAB_PATH" --model_name "runs/convse/model/" --use_contrastive
 ```
 
 # Evaluate trained models 
